@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập Lớn : Chất Thải Nhựa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <header class="header">
+                <h2 class="logo">Nhóm 8</h2>
+            </header>
+        </div>
+        <div class="row">
+            <div class="col" id="col1">
+                <h1>Chất Thải Nhựa</h1>
+                <p>Con người và Môi trường</p>
+                <button type="button" id="button">Explore</button>
+            </div>
+            
+            <div class="col">
+                <div class="card c1" id="card c1">
+                    <h5>Thực Trạng</h5>
+                </div>
+                <div class="card c2" id="card c2">
+                    <h5>Hậu Quả</h5>
+                </div>
+                <div class="card c3" id="card c3">
+                    <h5>Biện Pháp</h5>
+                </div>
+                <div class="card c4" id="card c4">
+                    <h5>References</h5>
+                </div>
+            </div>
+            
+        </div>
+    <video autoplay loop muted plays-incline class="back-video">
+        <source src="imgs/video1.mp4" type="video/mp4">
+    </video>    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="script3.js">
+    </script>
+    <script>
+
+        $(document).ready(function() {
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('header').addClass('sticky');
+                }
+                else{
+                    $('header').removeClass('sticky');
+                }
+            });
+        });
+    </script>
+    <script>
+        var defaultZoomLevel = 67;
+        window.onload = function() {
+            defaultZoomLevel = document.body.style.zoom;
+        };
+        window.onclick = function() {
+            document.body.style.zoom = defaultZoomLevel;
+        };
+    </script>
+</body>
+
+</html>
