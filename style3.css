@@ -153,3 +153,22 @@ p.io{
 
 
 }
+.sp{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    top: 0;
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 20px;
+    background:#fff;
+    text-align: center;
+    display: inline-block;
+}
+.sp:hover{
+    background-color: #359381;
+    color: #fff;
+}
