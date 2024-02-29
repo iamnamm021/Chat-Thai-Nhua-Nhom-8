@@ -13,7 +13,7 @@ var element5 = document.getElementById("button");
             window.location.href="index4.html";
         });
         element4.addEventListener("click", function(click){
-            window.location.href="index.html";
+            window.location.href="index5.html";
         });
         element5.addEventListener("click", function(click){
             window.location.href="index2.html";
