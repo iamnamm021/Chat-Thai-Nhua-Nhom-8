@@ -176,3 +176,8 @@ h5{
     font-size: 0.5rem;
     display: inline-block;
 }
+       .sec h1 {
+          font-size: 2.25em;
+        color: #fff;
+        margin-bottom: 10px;
+       }
