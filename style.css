@@ -130,19 +130,19 @@ button:hover{
     color: transparent;
 }
 .c1{
-    background-image: url(imgs/9.png);
+    background-image: url(imgs/a1.png);
     margin-top: 200px;
 }
 .c2{
-    background-image: url(imgs/hq9.png);
+    background-image: url(imgs/a3.png);
     margin-top: 200px;
 }
 
 .c3{
-    background-image: url(imgs/18.jpg);
+    background-image: url(imgs/a4.jpeg);
 }
 .c4{
-    background-image: url(imgs/uni.jpg);   
+    background-image: url(imgs/a5.jpg);   
 }
 .card:hover{
     transform: translateY(-10px);
